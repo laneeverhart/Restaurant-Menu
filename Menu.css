@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: RGB(241, 233, 210);
+}
+@font-face {
+	font-family: "celtic";
+	src: url("CELTICHD.TTF");
+}
+
+.container {
+	width: 100%;
+	height: 500px;
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+h1 {
+	text-align: center;
+	font-size: 6em;
+	font-family: celtic;
+	color: #7a5620;
+}
+
+#contain {
+	position: relative;
+	margin: auto;
+}
+
+#right-col {
+	width: 48%;
+	min-height: 500px;
+	display: inline-block;
+	margin: 3% 1% 0 1%;
+	vertical-align: top;
+
+}
+
+#left-col {
+	width: 48%;
+	min-height: 500px;
+	display: inline-block;
+	margin: 3% 1% 0 1%;
+	vertical-align: top;
+}
+
+@media (max-width: 768px){
+ #right-col, #left-col {
+ 	display:block;
+ 	margin: 5% auto;
+ 	width: 90%;
+
+}
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+	font-family: celtic;
+	color: #7a5620;
+	margin-top: 50px;
+}
+
+.price {
+	display:inline-block;
+	float: right;
+	color: #7a5620;
+	font-size: 1em;
+
+}
+.item {
+	margin: 1em 0;
+	font-family: celtic;
+	color: #7a5620;	
+	font-size: 1.5em;
+
+
+}
+.desc {
+	margin: 1em 0;
+	font-family: celtic;
+	color: #7a5620;
+}
+
+hr {
+	/* Gradient transparent - color - transparent */
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+}
+
+
